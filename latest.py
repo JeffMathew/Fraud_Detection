@@ -6,9 +6,7 @@ import pandas as pd
 from pandas import DataFrame
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import accuracy_score as score
 from sklearn.metrics import confusion_matrix as confusion
-from sklearn.metrics import classification_report
 from xgboost.sklearn import XGBClassifier
 from xgboost import to_graphviz
 import graphviz
@@ -29,10 +27,10 @@ from numpy import *
 import matplotlib.pyplot as plt
 from pylab import *
 from string import ascii_uppercase
-from sklearn import svm
-from sklearn.model_selection import cross_val_score
 
-from sklearn.ensemble import AdaBoostClassifier
+
+
+
 
 
 #IMPORT DATABASE
